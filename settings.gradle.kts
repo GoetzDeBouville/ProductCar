@@ -15,4 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "ProductCar"
 include(":app")
- 
+include(":core:presentation")
+include(":core:network")
+include(":feature:autorization")
+include(":core:database")

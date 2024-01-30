@@ -2,10 +2,12 @@ package com.goetzgegouville.productcar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.arshapshap.hotelapp.core.presentation.BaseActivity
+import com.goetzgegouville.productcar.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity<ActivityMainBinding>(
+    ActivityMainBinding::inflate
+) {
+    override fun initViews() {
     }
 }
